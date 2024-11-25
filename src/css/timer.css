@@ -1,0 +1,113 @@
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 24px;
+  width: 346px;
+  height: 72px;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.container {
+  display: flex;
+}
+
+.input {
+  margin-right: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 0 16px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  outline: transparent;
+  transition: border 0.3s, ease-in-out;
+}
+.input:hover {
+  border: 1px solid #000;
+}
+.input:active {
+  border: 1px solid #4e75ff;
+}
+.input:disabled {
+  border: 1px solid #808080;
+}
+
+.button-start {
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: transparent;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  box-sizing: border-box;
+  transition: background-color 0.3s, ease-in-out, color 0.3s ease-in-out;
+}
+
+.button-start:disabled {
+  color: #989898;
+  background-color: #cfcfcf;
+  border: transparent;
+}
+
+.button-start:hover {
+  background-color: #6c8cff;
+  color: #fff;
+}
